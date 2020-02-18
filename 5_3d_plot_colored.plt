@@ -15,15 +15,15 @@ set pm3d
 set isosample 50
 
 # put the colored map in the surface and bottom
-set pm3d at sb
-set isosample 50 
+#set pm3d at sb
+#set isosample 50 
 
 # put the colored map on the bottom only
 set pm3d at b
 set isosample 50
 
 # obtain 2D plot of colored map on the bottom
-set pm3d map
-set isosample 50
+#set pm3d map
+#set isosample 50
 
 splot sin(x)*cos(y)
